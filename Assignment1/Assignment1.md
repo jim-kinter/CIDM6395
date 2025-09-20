@@ -29,11 +29,13 @@ Additionally, integration with emerging tools like natural language processing (
 ## Supporting Evidence
 
 ### Samples of Work
+
 My GitHub repositories provide concrete examples of my Data Analytics work. For CIDM5310, visit [https://github.com/jim-kinter/CIDM5310](https://github.com/jim-kinter/CIDM5310), where I have Jupyter Notebooks demonstrating Python scripts for data cleaning, PowerBI dashboards for sales analytics, and architecture diagrams for BI systems. A key artifact is a notebook on problem definition, where I sourced public datasets from Kaggle to analyze customer churn, incorporating insights from my construction industry experience.
 
 For CIDM6312, [https://github.com/jim-kinter/CIDM6312](https://github.com/jim-kinter/CIDM6312) includes PowerBI files showcasing storytelling dashboards, such as one visualizing global health trends with interactive filters. It also features Tableau workbooks on good vs. bad design, highlighting redesigns of poorly visualized data, informed by practical applications from my systems development career.
 
 ### Samples and Sources of Knowledge Consulted
+
 To build proficiency, I drew on my 30 years of IT experience and 15+ years in systems design and development in the industrial construction industry, which provided a practical lens for applying analytics concepts. Academic guidance came from Dr. Humpherys' instruction, which emphasized real-world relevance. I supplemented this with Datacamp courses on Python and Data Analysis, using Google Colab for hands-on coding practice. For PowerBI, I relied on Microsoft's official documentation to master dashboard creation and DAX functions.
 
 Key texts included "Data Visualization: Exploring and Explaining with Data," which deepened my understanding of visualization principles and storytelling, and "AI Powered Business Intelligence," which connected AI concepts to business applications, helping bridge my weaknesses in Azure AI & ML. For Python and Jupyter, I also used the Python.org docs and Jupyter's official guide, supplemented by "Python for Data Analysis" by Wes McKinney. In visualization, I referenced Edward Tufte's "The Visual Display of Quantitative Information" for design principles and Cole Nussbaumer Knaflic's "Storytelling with Data" for narrative techniques.
@@ -51,13 +53,17 @@ I am well-prepared to incorporate Data Analytics into my capstone portfolio and 
 ## Contribution Towards the Capstone: Integration of Data Analytics
 
 ### Why Data Analytics is Integratable with the Other Areas
+
 Data Analytics is inherently integratable because it relies on clean, managed data (from Data Management), robust software platforms (from Software Systems), and secure networks (from Networking and Cybersecurity) to function effectively. Without these, analytics would be unreliable or inaccessible, as I've seen in my industrial systems work.
 
 ### How Data Analytics is Integratable with the Other Areas
+
 It integrates by using SQL from Data Management courses (e.g., CIDM6350) to query databases for analytics inputs, deploying Python scripts via Django APIs from Software Systems (CIDM6330), and ensuring data security through tools like Wireshark from Networking (CIDM6340). For example, an analytics pipeline could extract data via ETL (CIDM6351), process it in Python, and visualize it securely, mirroring integrated systems I've designed in construction.
 
 ### How Data Analytics is Integratable with My Prior Work
+
 My prior work in systems development (e.g., API design in CIDM6330) complements analytics by enabling custom tools, while cybersecurity knowledge (CIDM6341) ensures compliant data handling. This builds on my GitHub projects and 15+ years in industrial construction, linking analytics dashboards to managed databases for practical applications like predictive maintenance.
 
 ### New Statement Demonstrating That These All Fit
+
 In synthesizing these areas, I assert: "A holistic information system emerges when Data Analytics transforms managed data into insights, powered by secure software and networks, enabling predictive decision-making that drives innovation—exemplified in a capstone prototype for real-time business intelligence in industrial settings." This unified view will guide my portfolio, integration project, and presentation, showcasing a comprehensive mastery informed by decades of professional experience.
