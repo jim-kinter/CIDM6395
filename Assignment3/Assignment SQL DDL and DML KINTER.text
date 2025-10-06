@@ -1,0 +1,43 @@
+--Task 1
+INSERT INTO Employees (LastName, FirstName, BirthDate)
+VALUES 
+("Avaya","Bates","1987-01-01"),
+("Don","Bains","1969-12-05"),
+("Mehreen","Strong","1994-03-06"),
+("Kayson","Bravo","2000-01-07");
+
+--Task2
+UPDATE Employees
+SET Birthdate="1968-01-30"
+WHERE EmployeeID=1;
+
+-- VERIFY RESULTS (Confirm 14 employees)
+SELECT * FROM Employees;
+SELECT COUNT() FROM Employees;
+
+--Task 3
+INSERT INTO Employees (LastName, FirstName, Notes)
+VALUES 
+("Ramirez","Cooper","Has MBA and fluent in Spanish"),
+("Prosser","Anna-Marie","Graduated West Texas A&M"),
+("Whitley","Cosmo","Amarillo Chamber of Commerce");
+
+-- VERIFY RESULTS (Confirm 17 employees and that the notes are correct)
+SELECT * FROM Employees;
+
+--Task 4
+UPDATE Customers 
+SET Country = "United States of America" 
+WHERE Country = "USA";
+
+-- VERIFY RESULTS (Confirm that there are no records with "USA")
+SELECT * FROM Customers WHERE Country LIKE "U%";
+
+--Task 5
+DELETE FROM Products WHERE SupplierID = 3;
+DELETE FROM Suppliers WHERE SupplierID = 3;
+
+-- VERIFY RESULTS (Confirm that there are no products for SupplierID=3 and that Grandma Kelly's Homestead has been removed from Customers)
+SELECT COUNT(*) AS "GRANDMA_KELLY_PRODUCTS" FROM Products WHERE SupplierID=3;
+SELECt COUNT(*) AS "GRANDMA_KELLY_SUPPLIERS" FROM Suppliers WHERE SupplierName="Grandma Kelly's Homestead"
+
